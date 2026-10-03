@@ -16,11 +16,23 @@ Abra o executável em uma pasta com permissão de escrita. Não precisa instalar
 ## Conversas e perfil
 
 
-Em **Perfil**, escolha foto, nome, descrição e status; copie seu convite e compartilhe com a pessoa que deseja adicionar. Depois de aceitar o contato, vocês podem trocar mensagens e iniciar uma chamada. Desde a versão 0.7, com ambos os aplicativos conectados, a outra pessoa recebe um aviso com som e **Atender / Recusar**. O convite também aparece no chat. Os avisos expiram em 60 segundos; **Não perturbar** recusa novas chamadas. O aplicativo precisa permanecer aberto para receber o aviso.
+Em **Perfil**, escolha foto, nome, descrição e status; use **Copiar meu código** e compartilhe o código `PVF-XXXX-XXXX-XXXX-XXXX` com a pessoa que deseja adicionar. Depois de aceitar o contato, vocês podem trocar mensagens e iniciar uma chamada. Desde a versão 0.7, com ambos os aplicativos conectados, a outra pessoa recebe um aviso com som e **Atender / Recusar**. O convite também aparece no chat. Os avisos expiram em 60 segundos; **Não perturbar** recusa novas chamadas. O aplicativo precisa permanecer aberto para receber o aviso.
 
 
 O histórico e a identidade ficam no computador. Mensagens pendentes são enviadas quando os dois contatos estiverem conectados. Exporte um backup protegido por senha em **Perfil** antes de trocar de computador. Não há recuperação por e-mail nem sincronização entre dispositivos.
 
+
+## Novidades da versão 0.9
+
+- **Código de amigo curto:** 23 caracteres, preservado ao trocar nome ou foto. Cole em **+ / Adicionar amigo** ou na busca e pressione Enter. Convites antigos continuam válidos. A busca requer internet e a pessoa precisa abrir a versão 0.9 com o nome salvo para publicar o código.
+- **Perfil na chamada:** clique no nome ou na foto do participante para **Adicionar amigo** ou **Aceitar amizade**. Depois da aceitação, **Enviar mensagem** abre o chat privado enquanto a chamada continua. Volume, silêncio local e destaque ficam no mesmo painel.
+- **Chamada aberta aos amigos:** o criador ativa **Mostrar chamada aos amigos**. Na conversa dos amigos aceitos aparece **Entrar na chamada**, sem convite individual. Uma chamada de duas pessoas passa a aceitar até oito; desligar a opção esconde a entrada e conserva os participantes. Sair encerra a chamada e desativa a opção. Invisível e perda de conexão escondem o anúncio.
+
+Atualizem todos os participantes para 0.9 para usar os novos atalhos e a expansão de chamadas. Reuniões continuam com **até 8 pessoas**, sem TURN.
+
+O diretório de códigos guarda somente chave pública e nome criptografados no serviço de testes; quem conhece o código pode consultá-los. Mensagens, fotos e convites de chamada não são guardados nesse diretório. A amizade precisa ser aceita para liberar a conversa. O serviço pode reiniciar e perder registros; abrir o aplicativo novamente publica o código. O histórico permanece local.
+
+Validação do executável final: três clientes temporários neste Windows, serviço público real, busca de código, amizade e conversa privada pelo perfil durante a chamada, entrada pelo botão sem convite individual, WebRTC com áudio sintético, reconexão e anúncios encerrados/expirados. Não valida computadores físicos em redes diferentes nem a meta de 10 ms.
 
 ## Reuniões
 
