@@ -1,9 +1,9 @@
 {
   "platform": "android",
-  "version": "0.3.1",
-  "versionCode": 8,
-  "asset": "PulseVoice-Android-0.3.1.apk",
-  "sha256": "9599bf4f219fe9b0a3fb8687d550c37ebcea45ab3c8876d5fe9b73a96898037e",
+  "version": "0.3.2",
+  "versionCode": 9,
+  "asset": "PulseVoice-Android-0.3.2.apk",
+  "sha256": "36aa48c15ff2e6a6bb92e4d286ec106d28baa39709b320a16f265be4f5d564dc",
   "size": 44329514,
-  "url": "https://github.com/OppressorLiber/pulsevoice-releases/releases/download/android-v0.3.1/PulseVoice-Android-0.3.1.apk"
+  "url": "https://github.com/OppressorLiber/pulsevoice-releases/releases/download/android-v0.3.2/PulseVoice-Android-0.3.2.apk"
 }
